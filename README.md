@@ -13,11 +13,9 @@ A small editor‑focused Unity component that lets you cycle or randomly choose 
   - [Inspector Controls](#inspector-controls)  
 - [API & Code Overview](#api--code-overview)  
   - [`PlacementSystem`](#placementsystem)  
-  - [`PlacementSystemEditor`](#placementsystemeditor)  
-- [Switch Modes](#switch-modes)  
-- [Example Workflow](#example-workflow)  
-- [Notes](#notes)  
-- [License](#license)  
+  - [`PlacementSystemEditor`](Editor/PlacementSystemEditor.cs)  
+- [Example Workflow](#workflow-example)  
+- [License](LICENSE)  
 
 ---
 
@@ -135,3 +133,8 @@ public class PlacementSystem : MonoBehaviour
         return currentIndex;
     }
 }
+```
+
+## Workflow Example
+
+You can use this script for several things within your workflow, for example to make trees and bushes look more random and natural faster, or to permanently duplicate and move roads and other props and add a little randomness at the end to get a little more realism into your scene. 
